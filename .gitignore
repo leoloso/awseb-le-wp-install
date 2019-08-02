@@ -3,3 +3,11 @@ composer.lock
 vendor
 phpcs.xml
 phpunit.xml
+
+vendor/
+wp/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
