@@ -16,7 +16,7 @@ This project is ready to be deployed to Elastic Beanstalk under a single instanc
 Via [Composer](https://getcomposer.org):
 
 ```bash
-composer create-project leoloso/awseb-le-wp-install {YOUR_FOLDER_NAME} dev-master
+composer create-project leoloso/awseb-le-wp-install
 ```
 
 After bootstrapping this project, add your own code, and deploy!
