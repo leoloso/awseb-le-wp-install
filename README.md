@@ -2,13 +2,24 @@
 
 Bootstrapper to launch WordPress in an AWS Elastic Beanstalk single instance with Let's Encrypt, configurable through environment variables
 
-## Install
+## Description
+
+This project is ready to be deployed to Elastic Beanstalk under a single instance, featuring:
+
+- WordPress pre-installed, admin area accessible under `/wp/wp-admin/`
+- HTTPS through [Let's Encrypt](https://letsencrypt.org/)
+- Cronjob to automatically renew the Let's Encrypt certificate
+- All information is set through environment variables
+
+## Usage
 
 Via [Composer](https://getcomposer.org):
 
 ```bash
 composer create-project leoloso/awseb-le-wp-install {YOUR_FOLDER_NAME} dev-master
 ```
+
+After bootstrapping this project, add your own code, and deploy!
 
 ## Environment variables
 
