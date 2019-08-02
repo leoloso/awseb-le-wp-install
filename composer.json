@@ -8,7 +8,7 @@
         "EB",
         "Elastic",
         "Beanstalk",
-        "Let'sEncrypt",
+        "LetsEncrypt",
         "Encrypt",
         "WordPress",
         "Bootstrap"
@@ -22,8 +22,6 @@
             "homepage": "https://getpop.org"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
