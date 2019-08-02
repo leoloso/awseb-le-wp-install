@@ -61,7 +61,7 @@ LETSENCRYPT_OPTIONS={YOUR_LETSENCRYPT_OPTIONS} # Can be used to pass "--dry-run"
 
 ## Credits
 
-The Let's Encrypt configuration was mostly taken from Radek Zajkowski's article [Elastic Beanstalk and Let’s Encrypt](https://medium.com/@konaorange/elastic-beanstalk-and-lets-encrypt-74458f072f0c).
+The Let's Encrypt configuration was mostly taken from [Radek Zajkowski](https://twitter.com/konaorange)'s article [Elastic Beanstalk and Let’s Encrypt](https://medium.com/@konaorange/elastic-beanstalk-and-lets-encrypt-74458f072f0c).
 
 Installing WordPress through Composer and WP-CLI is based [another project of mine](https://github.com/leoloso/wp-install).
 
